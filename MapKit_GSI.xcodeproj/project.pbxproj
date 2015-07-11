@@ -1,0 +1,874 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		657496A35E67211335354EC9 /* libPods-MapKit_GSI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 784FC1B8EEDB62B4ED77323F /* libPods-MapKit_GSI.a */; };
+		E93387FA1B4159450047C3E0 /* TableInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E93387F91B4159450047C3E0 /* TableInfoViewController.m */; };
+		E93387FE1B415B020047C3E0 /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E93387FD1B415B020047C3E0 /* DataViewController.m */; };
+		E933889B1B415F8A0047C3E0 /* ODESDataListInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = E93388791B415F8A0047C3E0 /* ODESDataListInfo.m */; };
+		E933889C1B415F8A0047C3E0 /* ODESGovOrgData.m in Sources */ = {isa = PBXBuildFile; fileRef = E933887B1B415F8A0047C3E0 /* ODESGovOrgData.m */; };
+		E933889D1B415F8A0047C3E0 /* ODESMainCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = E933887D1B415F8A0047C3E0 /* ODESMainCategory.m */; };
+		E933889E1B415F8A0047C3E0 /* ODESStatisticListRequestParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = E933887F1B415F8A0047C3E0 /* ODESStatisticListRequestParameter.m */; };
+		E933889F1B415F8A0047C3E0 /* ODESResult.m in Sources */ = {isa = PBXBuildFile; fileRef = E93388811B415F8A0047C3E0 /* ODESResult.m */; };
+		E93388A01B415F8A0047C3E0 /* ODESStatisticListResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = E93388831B415F8A0047C3E0 /* ODESStatisticListResponse.m */; };
+		E93388A11B415F8A0047C3E0 /* ODESStatName.m in Sources */ = {isa = PBXBuildFile; fileRef = E93388851B415F8A0047C3E0 /* ODESStatName.m */; };
+		E93388A21B415F8A0047C3E0 /* ODESStatsList.m in Sources */ = {isa = PBXBuildFile; fileRef = E93388871B415F8A0047C3E0 /* ODESStatsList.m */; };
+		E93388A31B415F8A0047C3E0 /* ODESSubCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = E93388891B415F8A0047C3E0 /* ODESSubCategory.m */; };
+		E93388A41B415F8A0047C3E0 /* ODESTableInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = E933888B1B415F8A0047C3E0 /* ODESTableInfo.m */; };
+		E93388A51B415F8A0047C3E0 /* ODESTitle.m in Sources */ = {isa = PBXBuildFile; fileRef = E933888D1B415F8A0047C3E0 /* ODESTitle.m */; };
+		E94CADFE1B405AB500793EB7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E94CADFD1B405AB500793EB7 /* main.m */; };
+		E94CAE011B405AB500793EB7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E94CAE001B405AB500793EB7 /* AppDelegate.m */; };
+		E94CAE041B405AB500793EB7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E94CAE031B405AB500793EB7 /* ViewController.m */; };
+		E94CAE071B405AB500793EB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E94CAE051B405AB500793EB7 /* Main.storyboard */; };
+		E94CAE091B405AB500793EB7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E94CAE081B405AB500793EB7 /* Images.xcassets */; };
+		E94CAE0C1B405AB500793EB7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E94CAE0A1B405AB500793EB7 /* LaunchScreen.xib */; };
+		E94CAE181B405AB500793EB7 /* MapKit_GSITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E94CAE171B405AB500793EB7 /* MapKit_GSITests.m */; };
+		E94CAE221B405AC000793EB7 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E94CAE211B405AC000793EB7 /* MapKit.framework */; };
+		E9579E9F1B41675200313DAB /* ODESDataClassClass.m in Sources */ = {isa = PBXBuildFile; fileRef = E9579E861B41675200313DAB /* ODESDataClassClass.m */; };
+		E9579EA01B41675200313DAB /* ODESDataClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = E9579E881B41675200313DAB /* ODESDataClassInfo.m */; };
+		E9579EA11B41675200313DAB /* ODESDataClassObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E9579E8A1B41675200313DAB /* ODESDataClassObject.m */; };
+		E9579EA21B41675200313DAB /* ODESDataInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = E9579E8C1B41675200313DAB /* ODESDataInfo.m */; };
+		E9579EA31B41675200313DAB /* ODESDataRequestResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = E9579E8E1B41675200313DAB /* ODESDataRequestResponse.m */; };
+		E9579EA41B41675200313DAB /* ODESDataStatsData.m in Sources */ = {isa = PBXBuildFile; fileRef = E9579E901B41675200313DAB /* ODESDataStatsData.m */; };
+		E9579EA51B41675200313DAB /* ODESNote.m in Sources */ = {isa = PBXBuildFile; fileRef = E9579E921B41675200313DAB /* ODESNote.m */; };
+		E9579EA61B41675200313DAB /* ODESDataRequestResponseParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = E9579E941B41675200313DAB /* ODESDataRequestResponseParameter.m */; };
+		E9579EA71B41675200313DAB /* ODESResultInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = E9579E961B41675200313DAB /* ODESResultInfo.m */; };
+		E9579EA81B41675200313DAB /* ODESDataStatisticalData.m in Sources */ = {isa = PBXBuildFile; fileRef = E9579E981B41675200313DAB /* ODESDataStatisticalData.m */; };
+		E9579EAB1B41675200313DAB /* ODESValue.m in Sources */ = {isa = PBXBuildFile; fileRef = E9579E9E1B41675200313DAB /* ODESValue.m */; };
+		E9579EBF1B417A4700313DAB /* GGCRResponseAddressComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = E9579EAE1B417A4700313DAB /* GGCRResponseAddressComponents.m */; };
+		E9579EC01B417A4700313DAB /* GGCRGeocodingResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = E9579EB01B417A4700313DAB /* GGCRGeocodingResponse.m */; };
+		E9579EC11B417A4700313DAB /* GGCRResponseBounds.m in Sources */ = {isa = PBXBuildFile; fileRef = E9579EB21B417A4700313DAB /* GGCRResponseBounds.m */; };
+		E9579EC21B417A4700313DAB /* GGCRResponseGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = E9579EB41B417A4700313DAB /* GGCRResponseGeometry.m */; };
+		E9579EC31B417A4700313DAB /* GGCRResponseLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = E9579EB61B417A4700313DAB /* GGCRResponseLocation.m */; };
+		E9579EC41B417A4700313DAB /* GGCRResponseNortheast.m in Sources */ = {isa = PBXBuildFile; fileRef = E9579EB81B417A4700313DAB /* GGCRResponseNortheast.m */; };
+		E9579EC51B417A4700313DAB /* GGCRResponseResults.m in Sources */ = {isa = PBXBuildFile; fileRef = E9579EBA1B417A4700313DAB /* GGCRResponseResults.m */; };
+		E9579EC61B417A4700313DAB /* GGCRResponseSouthwest.m in Sources */ = {isa = PBXBuildFile; fileRef = E9579EBC1B417A4700313DAB /* GGCRResponseSouthwest.m */; };
+		E9579EC71B417A4700313DAB /* GGCRResponseViewport.m in Sources */ = {isa = PBXBuildFile; fileRef = E9579EBE1B417A4700313DAB /* GGCRResponseViewport.m */; };
+		E9579EC91B417AE800313DAB /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9579EC81B417AE800313DAB /* CoreLocation.framework */; };
+		E9579ECD1B417C0000313DAB /* MKGSIAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = E9579ECC1B417C0000313DAB /* MKGSIAnnotation.m */; };
+		E9579ED21B41866700313DAB /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E9579ED01B41866700313DAB /* Model.xcdatamodeld */; };
+		E9579EDD1B418C7000313DAB /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9579EDC1B418C7000313DAB /* CoreData.framework */; };
+		E9579EE01B41962000313DAB /* MKGSICityEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = E9579EDF1B41962000313DAB /* MKGSICityEntry.m */; };
+		E9579EE41B4203DF00313DAB /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9579EE31B4203DF00313DAB /* SearchViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E94CAE121B405AB500793EB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E94CADF01B405AB400793EB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E94CADF71B405AB400793EB7;
+			remoteInfo = MapKit_GSI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2143F69E610E83F4272ACE17 /* Pods-MapKit_GSI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapKit_GSI.release.xcconfig"; path = "Pods/Target Support Files/Pods-MapKit_GSI/Pods-MapKit_GSI.release.xcconfig"; sourceTree = "<group>"; };
+		38D7E675DEB92887C9F42C1F /* Pods-MapKit_GSI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapKit_GSI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MapKit_GSI/Pods-MapKit_GSI.debug.xcconfig"; sourceTree = "<group>"; };
+		784FC1B8EEDB62B4ED77323F /* libPods-MapKit_GSI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MapKit_GSI.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E93387F81B4159450047C3E0 /* TableInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableInfoViewController.h; sourceTree = "<group>"; };
+		E93387F91B4159450047C3E0 /* TableInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableInfoViewController.m; sourceTree = "<group>"; };
+		E93387FC1B415B020047C3E0 /* DataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataViewController.h; sourceTree = "<group>"; };
+		E93387FD1B415B020047C3E0 /* DataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
+		E93388781B415F8A0047C3E0 /* ODESDataListInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODESDataListInfo.h; sourceTree = "<group>"; };
+		E93388791B415F8A0047C3E0 /* ODESDataListInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ODESDataListInfo.m; sourceTree = "<group>"; };
+		E933887A1B415F8A0047C3E0 /* ODESGovOrgData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODESGovOrgData.h; sourceTree = "<group>"; };
+		E933887B1B415F8A0047C3E0 /* ODESGovOrgData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ODESGovOrgData.m; sourceTree = "<group>"; };
+		E933887C1B415F8A0047C3E0 /* ODESMainCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODESMainCategory.h; sourceTree = "<group>"; };
+		E933887D1B415F8A0047C3E0 /* ODESMainCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ODESMainCategory.m; sourceTree = "<group>"; };
+		E933887E1B415F8A0047C3E0 /* ODESStatisticListRequestParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODESStatisticListRequestParameter.h; sourceTree = "<group>"; };
+		E933887F1B415F8A0047C3E0 /* ODESStatisticListRequestParameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ODESStatisticListRequestParameter.m; sourceTree = "<group>"; };
+		E93388801B415F8A0047C3E0 /* ODESResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODESResult.h; sourceTree = "<group>"; };
+		E93388811B415F8A0047C3E0 /* ODESResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ODESResult.m; sourceTree = "<group>"; };
+		E93388821B415F8A0047C3E0 /* ODESStatisticListResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODESStatisticListResponse.h; sourceTree = "<group>"; };
+		E93388831B415F8A0047C3E0 /* ODESStatisticListResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ODESStatisticListResponse.m; sourceTree = "<group>"; };
+		E93388841B415F8A0047C3E0 /* ODESStatName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODESStatName.h; sourceTree = "<group>"; };
+		E93388851B415F8A0047C3E0 /* ODESStatName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ODESStatName.m; sourceTree = "<group>"; };
+		E93388861B415F8A0047C3E0 /* ODESStatsList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODESStatsList.h; sourceTree = "<group>"; };
+		E93388871B415F8A0047C3E0 /* ODESStatsList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ODESStatsList.m; sourceTree = "<group>"; };
+		E93388881B415F8A0047C3E0 /* ODESSubCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODESSubCategory.h; sourceTree = "<group>"; };
+		E93388891B415F8A0047C3E0 /* ODESSubCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ODESSubCategory.m; sourceTree = "<group>"; };
+		E933888A1B415F8A0047C3E0 /* ODESTableInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODESTableInfo.h; sourceTree = "<group>"; };
+		E933888B1B415F8A0047C3E0 /* ODESTableInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ODESTableInfo.m; sourceTree = "<group>"; };
+		E933888C1B415F8A0047C3E0 /* ODESTitle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODESTitle.h; sourceTree = "<group>"; };
+		E933888D1B415F8A0047C3E0 /* ODESTitle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ODESTitle.m; sourceTree = "<group>"; };
+		E94CADF81B405AB500793EB7 /* MapKit_GSI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapKit_GSI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E94CADFC1B405AB500793EB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E94CADFD1B405AB500793EB7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E94CADFF1B405AB500793EB7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E94CAE001B405AB500793EB7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E94CAE021B405AB500793EB7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E94CAE031B405AB500793EB7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E94CAE061B405AB500793EB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E94CAE081B405AB500793EB7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E94CAE0B1B405AB500793EB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E94CAE111B405AB500793EB7 /* MapKit_GSITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapKit_GSITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E94CAE161B405AB500793EB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E94CAE171B405AB500793EB7 /* MapKit_GSITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapKit_GSITests.m; sourceTree = "<group>"; };
+		E94CAE211B405AC000793EB7 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		E9579E4C1B4162C900313DAB /* API.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = API.h; sourceTree = "<group>"; };
+		E9579E851B41675200313DAB /* ODESDataClassClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODESDataClassClass.h; sourceTree = "<group>"; };
+		E9579E861B41675200313DAB /* ODESDataClassClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ODESDataClassClass.m; sourceTree = "<group>"; };
+		E9579E871B41675200313DAB /* ODESDataClassInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODESDataClassInfo.h; sourceTree = "<group>"; };
+		E9579E881B41675200313DAB /* ODESDataClassInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ODESDataClassInfo.m; sourceTree = "<group>"; };
+		E9579E891B41675200313DAB /* ODESDataClassObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODESDataClassObject.h; sourceTree = "<group>"; };
+		E9579E8A1B41675200313DAB /* ODESDataClassObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ODESDataClassObject.m; sourceTree = "<group>"; };
+		E9579E8B1B41675200313DAB /* ODESDataInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODESDataInfo.h; sourceTree = "<group>"; };
+		E9579E8C1B41675200313DAB /* ODESDataInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ODESDataInfo.m; sourceTree = "<group>"; };
+		E9579E8D1B41675200313DAB /* ODESDataRequestResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODESDataRequestResponse.h; sourceTree = "<group>"; };
+		E9579E8E1B41675200313DAB /* ODESDataRequestResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ODESDataRequestResponse.m; sourceTree = "<group>"; };
+		E9579E8F1B41675200313DAB /* ODESDataStatsData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODESDataStatsData.h; sourceTree = "<group>"; };
+		E9579E901B41675200313DAB /* ODESDataStatsData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ODESDataStatsData.m; sourceTree = "<group>"; };
+		E9579E911B41675200313DAB /* ODESNote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODESNote.h; sourceTree = "<group>"; };
+		E9579E921B41675200313DAB /* ODESNote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ODESNote.m; sourceTree = "<group>"; };
+		E9579E931B41675200313DAB /* ODESDataRequestResponseParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODESDataRequestResponseParameter.h; sourceTree = "<group>"; };
+		E9579E941B41675200313DAB /* ODESDataRequestResponseParameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ODESDataRequestResponseParameter.m; sourceTree = "<group>"; };
+		E9579E951B41675200313DAB /* ODESResultInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODESResultInfo.h; sourceTree = "<group>"; };
+		E9579E961B41675200313DAB /* ODESResultInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ODESResultInfo.m; sourceTree = "<group>"; };
+		E9579E971B41675200313DAB /* ODESDataStatisticalData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODESDataStatisticalData.h; sourceTree = "<group>"; };
+		E9579E981B41675200313DAB /* ODESDataStatisticalData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ODESDataStatisticalData.m; sourceTree = "<group>"; };
+		E9579E9D1B41675200313DAB /* ODESValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODESValue.h; sourceTree = "<group>"; };
+		E9579E9E1B41675200313DAB /* ODESValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ODESValue.m; sourceTree = "<group>"; };
+		E9579EAD1B417A4700313DAB /* GGCRResponseAddressComponents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGCRResponseAddressComponents.h; sourceTree = "<group>"; };
+		E9579EAE1B417A4700313DAB /* GGCRResponseAddressComponents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGCRResponseAddressComponents.m; sourceTree = "<group>"; };
+		E9579EAF1B417A4700313DAB /* GGCRGeocodingResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGCRGeocodingResponse.h; sourceTree = "<group>"; };
+		E9579EB01B417A4700313DAB /* GGCRGeocodingResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGCRGeocodingResponse.m; sourceTree = "<group>"; };
+		E9579EB11B417A4700313DAB /* GGCRResponseBounds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGCRResponseBounds.h; sourceTree = "<group>"; };
+		E9579EB21B417A4700313DAB /* GGCRResponseBounds.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGCRResponseBounds.m; sourceTree = "<group>"; };
+		E9579EB31B417A4700313DAB /* GGCRResponseGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGCRResponseGeometry.h; sourceTree = "<group>"; };
+		E9579EB41B417A4700313DAB /* GGCRResponseGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGCRResponseGeometry.m; sourceTree = "<group>"; };
+		E9579EB51B417A4700313DAB /* GGCRResponseLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGCRResponseLocation.h; sourceTree = "<group>"; };
+		E9579EB61B417A4700313DAB /* GGCRResponseLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGCRResponseLocation.m; sourceTree = "<group>"; };
+		E9579EB71B417A4700313DAB /* GGCRResponseNortheast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGCRResponseNortheast.h; sourceTree = "<group>"; };
+		E9579EB81B417A4700313DAB /* GGCRResponseNortheast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGCRResponseNortheast.m; sourceTree = "<group>"; };
+		E9579EB91B417A4700313DAB /* GGCRResponseResults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGCRResponseResults.h; sourceTree = "<group>"; };
+		E9579EBA1B417A4700313DAB /* GGCRResponseResults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGCRResponseResults.m; sourceTree = "<group>"; };
+		E9579EBB1B417A4700313DAB /* GGCRResponseSouthwest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGCRResponseSouthwest.h; sourceTree = "<group>"; };
+		E9579EBC1B417A4700313DAB /* GGCRResponseSouthwest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGCRResponseSouthwest.m; sourceTree = "<group>"; };
+		E9579EBD1B417A4700313DAB /* GGCRResponseViewport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGCRResponseViewport.h; sourceTree = "<group>"; };
+		E9579EBE1B417A4700313DAB /* GGCRResponseViewport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGCRResponseViewport.m; sourceTree = "<group>"; };
+		E9579EC81B417AE800313DAB /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		E9579ECB1B417C0000313DAB /* MKGSIAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKGSIAnnotation.h; sourceTree = "<group>"; };
+		E9579ECC1B417C0000313DAB /* MKGSIAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKGSIAnnotation.m; sourceTree = "<group>"; };
+		E9579ECE1B417F5300313DAB /* Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		E9579ED11B41866700313DAB /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		E9579EDC1B418C7000313DAB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E9579EDE1B41962000313DAB /* MKGSICityEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MKGSICityEntry.h; path = MapKit_GSI/Class/Model/CoreData/MKGSICityEntry.h; sourceTree = SOURCE_ROOT; };
+		E9579EDF1B41962000313DAB /* MKGSICityEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MKGSICityEntry.m; path = MapKit_GSI/Class/Model/CoreData/MKGSICityEntry.m; sourceTree = SOURCE_ROOT; };
+		E9579EE21B4203DF00313DAB /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		E9579EE31B4203DF00313DAB /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E94CADF51B405AB400793EB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9579EDD1B418C7000313DAB /* CoreData.framework in Frameworks */,
+				E9579EC91B417AE800313DAB /* CoreLocation.framework in Frameworks */,
+				E94CAE221B405AC000793EB7 /* MapKit.framework in Frameworks */,
+				657496A35E67211335354EC9 /* libPods-MapKit_GSI.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E94CAE0E1B405AB500793EB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		710C7E375F15E2FEF21C4B65 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				38D7E675DEB92887C9F42C1F /* Pods-MapKit_GSI.debug.xcconfig */,
+				2143F69E610E83F4272ACE17 /* Pods-MapKit_GSI.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E0E35345F5323D6319FA8BBF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9579EDC1B418C7000313DAB /* CoreData.framework */,
+				E9579EC81B417AE800313DAB /* CoreLocation.framework */,
+				784FC1B8EEDB62B4ED77323F /* libPods-MapKit_GSI.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E92CFD751B40FB510022C0C1 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				E9579EE11B4203DF00313DAB /* SearchViewController */,
+				E9579ECA1B417BF500313DAB /* MKGSIAnnotation */,
+				E93387FF1B415C040047C3E0 /* MetaDataViewController */,
+				E93387FB1B415AF00047C3E0 /* DataViewController */,
+				E93387F71B4159390047C3E0 /* TableInfoViewController */,
+				E93387D01B41465C0047C3E0 /* Model */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		E92CFD761B40FB510022C0C1 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		E92CFD771B40FB510022C0C1 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				E9579ED01B41866700313DAB /* Model.xcdatamodeld */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		E93387D01B41465C0047C3E0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E9579ED31B4189F900313DAB /* CoreData */,
+				E9579EAC1B417A4700313DAB /* GoogleGeocodingResponse */,
+				E9579E841B41675200313DAB /* DataResponse */,
+				E93388771B415F8A0047C3E0 /* StatisticListResponse */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E93387F71B4159390047C3E0 /* TableInfoViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E93387F81B4159450047C3E0 /* TableInfoViewController.h */,
+				E93387F91B4159450047C3E0 /* TableInfoViewController.m */,
+			);
+			path = TableInfoViewController;
+			sourceTree = "<group>";
+		};
+		E93387FB1B415AF00047C3E0 /* DataViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E93387FC1B415B020047C3E0 /* DataViewController.h */,
+				E93387FD1B415B020047C3E0 /* DataViewController.m */,
+			);
+			path = DataViewController;
+			sourceTree = "<group>";
+		};
+		E93387FF1B415C040047C3E0 /* MetaDataViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MetaDataViewController;
+			sourceTree = "<group>";
+		};
+		E93388771B415F8A0047C3E0 /* StatisticListResponse */ = {
+			isa = PBXGroup;
+			children = (
+				E93388781B415F8A0047C3E0 /* ODESDataListInfo.h */,
+				E93388791B415F8A0047C3E0 /* ODESDataListInfo.m */,
+				E933887A1B415F8A0047C3E0 /* ODESGovOrgData.h */,
+				E933887B1B415F8A0047C3E0 /* ODESGovOrgData.m */,
+				E933887C1B415F8A0047C3E0 /* ODESMainCategory.h */,
+				E933887D1B415F8A0047C3E0 /* ODESMainCategory.m */,
+				E933887E1B415F8A0047C3E0 /* ODESStatisticListRequestParameter.h */,
+				E933887F1B415F8A0047C3E0 /* ODESStatisticListRequestParameter.m */,
+				E93388801B415F8A0047C3E0 /* ODESResult.h */,
+				E93388811B415F8A0047C3E0 /* ODESResult.m */,
+				E93388821B415F8A0047C3E0 /* ODESStatisticListResponse.h */,
+				E93388831B415F8A0047C3E0 /* ODESStatisticListResponse.m */,
+				E93388841B415F8A0047C3E0 /* ODESStatName.h */,
+				E93388851B415F8A0047C3E0 /* ODESStatName.m */,
+				E93388861B415F8A0047C3E0 /* ODESStatsList.h */,
+				E93388871B415F8A0047C3E0 /* ODESStatsList.m */,
+				E93388881B415F8A0047C3E0 /* ODESSubCategory.h */,
+				E93388891B415F8A0047C3E0 /* ODESSubCategory.m */,
+				E933888A1B415F8A0047C3E0 /* ODESTableInfo.h */,
+				E933888B1B415F8A0047C3E0 /* ODESTableInfo.m */,
+				E933888C1B415F8A0047C3E0 /* ODESTitle.h */,
+				E933888D1B415F8A0047C3E0 /* ODESTitle.m */,
+			);
+			path = StatisticListResponse;
+			sourceTree = "<group>";
+		};
+		E94CADEF1B405AB400793EB7 = {
+			isa = PBXGroup;
+			children = (
+				E94CADFA1B405AB500793EB7 /* MapKit_GSI */,
+				E94CAE141B405AB500793EB7 /* MapKit_GSITests */,
+				E94CADF91B405AB500793EB7 /* Products */,
+				710C7E375F15E2FEF21C4B65 /* Pods */,
+				E0E35345F5323D6319FA8BBF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E94CADF91B405AB500793EB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E94CADF81B405AB500793EB7 /* MapKit_GSI.app */,
+				E94CAE111B405AB500793EB7 /* MapKit_GSITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E94CADFA1B405AB500793EB7 /* MapKit_GSI */ = {
+			isa = PBXGroup;
+			children = (
+				E94CADFF1B405AB500793EB7 /* AppDelegate.h */,
+				E94CAE001B405AB500793EB7 /* AppDelegate.m */,
+				E94CAE021B405AB500793EB7 /* ViewController.h */,
+				E94CAE031B405AB500793EB7 /* ViewController.m */,
+				E9579E4B1B4162C300313DAB /* Constant */,
+				E92CFD751B40FB510022C0C1 /* Class */,
+				E92CFD761B40FB510022C0C1 /* Library */,
+				E92CFD771B40FB510022C0C1 /* Resource */,
+				E94CAE051B405AB500793EB7 /* Main.storyboard */,
+				E94CAE081B405AB500793EB7 /* Images.xcassets */,
+				E94CAE0A1B405AB500793EB7 /* LaunchScreen.xib */,
+				E94CAE231B405AC500793EB7 /* Frameworks */,
+				E94CADFB1B405AB500793EB7 /* Supporting Files */,
+			);
+			path = MapKit_GSI;
+			sourceTree = "<group>";
+		};
+		E94CADFB1B405AB500793EB7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E94CADFC1B405AB500793EB7 /* Info.plist */,
+				E94CADFD1B405AB500793EB7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E94CAE141B405AB500793EB7 /* MapKit_GSITests */ = {
+			isa = PBXGroup;
+			children = (
+				E94CAE171B405AB500793EB7 /* MapKit_GSITests.m */,
+				E94CAE151B405AB500793EB7 /* Supporting Files */,
+			);
+			path = MapKit_GSITests;
+			sourceTree = "<group>";
+		};
+		E94CAE151B405AB500793EB7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E94CAE161B405AB500793EB7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E94CAE231B405AC500793EB7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E94CAE211B405AC000793EB7 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		E9579E4B1B4162C300313DAB /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				E9579E4C1B4162C900313DAB /* API.h */,
+				E9579ECE1B417F5300313DAB /* Constant.h */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		E9579E841B41675200313DAB /* DataResponse */ = {
+			isa = PBXGroup;
+			children = (
+				E9579E851B41675200313DAB /* ODESDataClassClass.h */,
+				E9579E861B41675200313DAB /* ODESDataClassClass.m */,
+				E9579E871B41675200313DAB /* ODESDataClassInfo.h */,
+				E9579E881B41675200313DAB /* ODESDataClassInfo.m */,
+				E9579E891B41675200313DAB /* ODESDataClassObject.h */,
+				E9579E8A1B41675200313DAB /* ODESDataClassObject.m */,
+				E9579E8B1B41675200313DAB /* ODESDataInfo.h */,
+				E9579E8C1B41675200313DAB /* ODESDataInfo.m */,
+				E9579E8D1B41675200313DAB /* ODESDataRequestResponse.h */,
+				E9579E8E1B41675200313DAB /* ODESDataRequestResponse.m */,
+				E9579E8F1B41675200313DAB /* ODESDataStatsData.h */,
+				E9579E901B41675200313DAB /* ODESDataStatsData.m */,
+				E9579E911B41675200313DAB /* ODESNote.h */,
+				E9579E921B41675200313DAB /* ODESNote.m */,
+				E9579E931B41675200313DAB /* ODESDataRequestResponseParameter.h */,
+				E9579E941B41675200313DAB /* ODESDataRequestResponseParameter.m */,
+				E9579E951B41675200313DAB /* ODESResultInfo.h */,
+				E9579E961B41675200313DAB /* ODESResultInfo.m */,
+				E9579E971B41675200313DAB /* ODESDataStatisticalData.h */,
+				E9579E981B41675200313DAB /* ODESDataStatisticalData.m */,
+				E9579E9D1B41675200313DAB /* ODESValue.h */,
+				E9579E9E1B41675200313DAB /* ODESValue.m */,
+			);
+			path = DataResponse;
+			sourceTree = "<group>";
+		};
+		E9579EAC1B417A4700313DAB /* GoogleGeocodingResponse */ = {
+			isa = PBXGroup;
+			children = (
+				E9579EAD1B417A4700313DAB /* GGCRResponseAddressComponents.h */,
+				E9579EAE1B417A4700313DAB /* GGCRResponseAddressComponents.m */,
+				E9579EAF1B417A4700313DAB /* GGCRGeocodingResponse.h */,
+				E9579EB01B417A4700313DAB /* GGCRGeocodingResponse.m */,
+				E9579EB11B417A4700313DAB /* GGCRResponseBounds.h */,
+				E9579EB21B417A4700313DAB /* GGCRResponseBounds.m */,
+				E9579EB31B417A4700313DAB /* GGCRResponseGeometry.h */,
+				E9579EB41B417A4700313DAB /* GGCRResponseGeometry.m */,
+				E9579EB51B417A4700313DAB /* GGCRResponseLocation.h */,
+				E9579EB61B417A4700313DAB /* GGCRResponseLocation.m */,
+				E9579EB71B417A4700313DAB /* GGCRResponseNortheast.h */,
+				E9579EB81B417A4700313DAB /* GGCRResponseNortheast.m */,
+				E9579EB91B417A4700313DAB /* GGCRResponseResults.h */,
+				E9579EBA1B417A4700313DAB /* GGCRResponseResults.m */,
+				E9579EBB1B417A4700313DAB /* GGCRResponseSouthwest.h */,
+				E9579EBC1B417A4700313DAB /* GGCRResponseSouthwest.m */,
+				E9579EBD1B417A4700313DAB /* GGCRResponseViewport.h */,
+				E9579EBE1B417A4700313DAB /* GGCRResponseViewport.m */,
+			);
+			path = GoogleGeocodingResponse;
+			sourceTree = "<group>";
+		};
+		E9579ECA1B417BF500313DAB /* MKGSIAnnotation */ = {
+			isa = PBXGroup;
+			children = (
+				E9579ECB1B417C0000313DAB /* MKGSIAnnotation.h */,
+				E9579ECC1B417C0000313DAB /* MKGSIAnnotation.m */,
+			);
+			path = MKGSIAnnotation;
+			sourceTree = "<group>";
+		};
+		E9579ED31B4189F900313DAB /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				E9579ED41B4189F900313DAB /* MKGSICityEntry */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		E9579ED41B4189F900313DAB /* MKGSICityEntry */ = {
+			isa = PBXGroup;
+			children = (
+				E9579EDE1B41962000313DAB /* MKGSICityEntry.h */,
+				E9579EDF1B41962000313DAB /* MKGSICityEntry.m */,
+			);
+			path = MKGSICityEntry;
+			sourceTree = "<group>";
+		};
+		E9579EE11B4203DF00313DAB /* SearchViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E9579EE21B4203DF00313DAB /* SearchViewController.h */,
+				E9579EE31B4203DF00313DAB /* SearchViewController.m */,
+			);
+			path = SearchViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E94CADF71B405AB400793EB7 /* MapKit_GSI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E94CAE1B1B405AB500793EB7 /* Build configuration list for PBXNativeTarget "MapKit_GSI" */;
+			buildPhases = (
+				39D884F5EACFBF19A88E7F62 /* Check Pods Manifest.lock */,
+				E94CADF41B405AB400793EB7 /* Sources */,
+				E94CADF51B405AB400793EB7 /* Frameworks */,
+				E94CADF61B405AB400793EB7 /* Resources */,
+				EF74309EC47702AB72394F3C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MapKit_GSI;
+			productName = MapKit_GSI;
+			productReference = E94CADF81B405AB500793EB7 /* MapKit_GSI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E94CAE101B405AB500793EB7 /* MapKit_GSITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E94CAE1E1B405AB500793EB7 /* Build configuration list for PBXNativeTarget "MapKit_GSITests" */;
+			buildPhases = (
+				E94CAE0D1B405AB500793EB7 /* Sources */,
+				E94CAE0E1B405AB500793EB7 /* Frameworks */,
+				E94CAE0F1B405AB500793EB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E94CAE131B405AB500793EB7 /* PBXTargetDependency */,
+			);
+			name = MapKit_GSITests;
+			productName = MapKit_GSITests;
+			productReference = E94CAE111B405AB500793EB7 /* MapKit_GSITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E94CADF01B405AB400793EB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Akira Matsuda";
+				TargetAttributes = {
+					E94CADF71B405AB400793EB7 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					E94CAE101B405AB500793EB7 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = E94CADF71B405AB400793EB7;
+					};
+				};
+			};
+			buildConfigurationList = E94CADF31B405AB400793EB7 /* Build configuration list for PBXProject "MapKit_GSI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E94CADEF1B405AB400793EB7;
+			productRefGroup = E94CADF91B405AB500793EB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E94CADF71B405AB400793EB7 /* MapKit_GSI */,
+				E94CAE101B405AB500793EB7 /* MapKit_GSITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E94CADF61B405AB400793EB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E94CAE071B405AB500793EB7 /* Main.storyboard in Resources */,
+				E94CAE0C1B405AB500793EB7 /* LaunchScreen.xib in Resources */,
+				E94CAE091B405AB500793EB7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E94CAE0F1B405AB500793EB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		39D884F5EACFBF19A88E7F62 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EF74309EC47702AB72394F3C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MapKit_GSI/Pods-MapKit_GSI-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E94CADF41B405AB400793EB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9579EC51B417A4700313DAB /* GGCRResponseResults.m in Sources */,
+				E93388A51B415F8A0047C3E0 /* ODESTitle.m in Sources */,
+				E93388A11B415F8A0047C3E0 /* ODESStatName.m in Sources */,
+				E94CAE041B405AB500793EB7 /* ViewController.m in Sources */,
+				E9579EA01B41675200313DAB /* ODESDataClassInfo.m in Sources */,
+				E933889B1B415F8A0047C3E0 /* ODESDataListInfo.m in Sources */,
+				E9579EAB1B41675200313DAB /* ODESValue.m in Sources */,
+				E9579EA31B41675200313DAB /* ODESDataRequestResponse.m in Sources */,
+				E9579EA61B41675200313DAB /* ODESDataRequestResponseParameter.m in Sources */,
+				E9579E9F1B41675200313DAB /* ODESDataClassClass.m in Sources */,
+				E94CAE011B405AB500793EB7 /* AppDelegate.m in Sources */,
+				E93387FE1B415B020047C3E0 /* DataViewController.m in Sources */,
+				E93388A41B415F8A0047C3E0 /* ODESTableInfo.m in Sources */,
+				E9579EBF1B417A4700313DAB /* GGCRResponseAddressComponents.m in Sources */,
+				E93388A01B415F8A0047C3E0 /* ODESStatisticListResponse.m in Sources */,
+				E9579EA11B41675200313DAB /* ODESDataClassObject.m in Sources */,
+				E9579EC61B417A4700313DAB /* GGCRResponseSouthwest.m in Sources */,
+				E9579ED21B41866700313DAB /* Model.xcdatamodeld in Sources */,
+				E93388A21B415F8A0047C3E0 /* ODESStatsList.m in Sources */,
+				E933889E1B415F8A0047C3E0 /* ODESStatisticListRequestParameter.m in Sources */,
+				E9579EA41B41675200313DAB /* ODESDataStatsData.m in Sources */,
+				E9579EC01B417A4700313DAB /* GGCRGeocodingResponse.m in Sources */,
+				E9579EE41B4203DF00313DAB /* SearchViewController.m in Sources */,
+				E933889F1B415F8A0047C3E0 /* ODESResult.m in Sources */,
+				E9579EC11B417A4700313DAB /* GGCRResponseBounds.m in Sources */,
+				E9579EC21B417A4700313DAB /* GGCRResponseGeometry.m in Sources */,
+				E9579EC41B417A4700313DAB /* GGCRResponseNortheast.m in Sources */,
+				E9579EA21B41675200313DAB /* ODESDataInfo.m in Sources */,
+				E933889D1B415F8A0047C3E0 /* ODESMainCategory.m in Sources */,
+				E93387FA1B4159450047C3E0 /* TableInfoViewController.m in Sources */,
+				E94CADFE1B405AB500793EB7 /* main.m in Sources */,
+				E9579ECD1B417C0000313DAB /* MKGSIAnnotation.m in Sources */,
+				E9579EA51B41675200313DAB /* ODESNote.m in Sources */,
+				E9579EE01B41962000313DAB /* MKGSICityEntry.m in Sources */,
+				E9579EA81B41675200313DAB /* ODESDataStatisticalData.m in Sources */,
+				E9579EC71B417A4700313DAB /* GGCRResponseViewport.m in Sources */,
+				E9579EC31B417A4700313DAB /* GGCRResponseLocation.m in Sources */,
+				E933889C1B415F8A0047C3E0 /* ODESGovOrgData.m in Sources */,
+				E9579EA71B41675200313DAB /* ODESResultInfo.m in Sources */,
+				E93388A31B415F8A0047C3E0 /* ODESSubCategory.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E94CAE0D1B405AB500793EB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E94CAE181B405AB500793EB7 /* MapKit_GSITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E94CAE131B405AB500793EB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E94CADF71B405AB400793EB7 /* MapKit_GSI */;
+			targetProxy = E94CAE121B405AB500793EB7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E94CAE051B405AB500793EB7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E94CAE061B405AB500793EB7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E94CAE0A1B405AB500793EB7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E94CAE0B1B405AB500793EB7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E94CAE191B405AB500793EB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E94CAE1A1B405AB500793EB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E94CAE1C1B405AB500793EB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38D7E675DEB92887C9F42C1F /* Pods-MapKit_GSI.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MapKit_GSI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E94CAE1D1B405AB500793EB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2143F69E610E83F4272ACE17 /* Pods-MapKit_GSI.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MapKit_GSI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E94CAE1F1B405AB500793EB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MapKit_GSITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MapKit_GSI.app/MapKit_GSI";
+			};
+			name = Debug;
+		};
+		E94CAE201B405AB500793EB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MapKit_GSITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MapKit_GSI.app/MapKit_GSI";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E94CADF31B405AB400793EB7 /* Build configuration list for PBXProject "MapKit_GSI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E94CAE191B405AB500793EB7 /* Debug */,
+				E94CAE1A1B405AB500793EB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E94CAE1B1B405AB500793EB7 /* Build configuration list for PBXNativeTarget "MapKit_GSI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E94CAE1C1B405AB500793EB7 /* Debug */,
+				E94CAE1D1B405AB500793EB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E94CAE1E1B405AB500793EB7 /* Build configuration list for PBXNativeTarget "MapKit_GSITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E94CAE1F1B405AB500793EB7 /* Debug */,
+				E94CAE201B405AB500793EB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E9579ED01B41866700313DAB /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E9579ED11B41866700313DAB /* Model.xcdatamodel */,
+			);
+			currentVersion = E9579ED11B41866700313DAB /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E94CADF01B405AB400793EB7 /* Project object */;
+}

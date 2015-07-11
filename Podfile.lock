@@ -1,0 +1,13 @@
+PODS:
+  - JGProgressHUD (1.2.7)
+  - M2DAPIGatekeeper (HEAD based on 0.3.0)
+
+DEPENDENCIES:
+  - JGProgressHUD
+  - M2DAPIGatekeeper (HEAD)
+
+SPEC CHECKSUMS:
+  JGProgressHUD: a45c1d16adddf7e38092ce3f0d71d3955d2de2ec
+  M2DAPIGatekeeper: b211e0863394d3a1f3ecbfd640f392530d198b40
+
+COCOAPODS: 0.37.2
